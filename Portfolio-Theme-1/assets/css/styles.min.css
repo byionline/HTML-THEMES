@@ -16,3 +16,50 @@
 a:hover {
   background: #d789d7;
 }
+/* .main-block */
+.main-block {
+  padding: 8px;
+}
+/* section-block */
+.section-block {
+  /* padding-bottom: 50px;
+  padding-top: 60px;*/
+  /*for both to and bottom padding*/
+  padding: 60px 0;
+}
+/* section-block .block-intro*/
+.section-block.block-intro {
+  text-align: center;
+}
+/* .container-block */
+.container-block {
+  padding: 8px;
+}
+/* .section-block.block-intro .me */
+.section-block.block-intro .me {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto auto 30px;
+  border-radius: 100px;
+}
+/* .section-block.block-intro p */
+.section-block.block-intro p {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* .highlight */
+.highlight {
+  font-family: "Raleway-semibold";
+  color: #e31b6d;
+}
+/* media query 768px */
+@media (min-width: 768px) {
+  .section-block {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    /* padding: 100px 0; */
+  }
+}
